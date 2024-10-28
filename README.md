@@ -46,20 +46,20 @@ Access the ReactJS frontend at http://localhost:8000 to view and manage VMs.
 ## API Documentation
 
 The VM Nexus API provides CRUD functionality for VM resources:
-
-GET /api/vms/: Retrieve all VM instances.
-POST /api/vms/: Create a new VM instance.
-PUT /api/vms/<id>/: Update an existing VM instance.
-DELETE /api/vms/<id>/: Delete a VM instance.
+ss
+- **GET /api/vms/**: Retrieve all VM instances.
+- **POST /api/vms/**: Create a new VM instance.
+- **PUT /api/vms/<id>/**: Update an existing VM instance.
+- **DELETE /api/vms/<id>/**: Delete a VM instance.
 
 ## Assumptions and Design Decisions
 
-Docker Integration: Combined Webpack and Django server into a single docker-compose setup for streamlined development.
-SSH Key for Security: Added ssh_key field to support future needs for secure VM connections.
-Frontend and API Coordination: Built with scalability in mind, enabling VM Nexus to accommodate additional fields and views as needed.
+- **Docker Integration**: Combined Webpack and Django server into a single docker-compose setup for streamlined development.
+- **SSH Key for Security**: Added `ssh_key` field to support future needs for secure VM connections.
+- **Frontend and API Coordination**: Built with scalability in mind, enabling VM Nexus to accommodate additional fields and views as needed.
 
 ## Future Enhancements
 
-Enhanced Security: Add OAuth for secured API access.
-Advanced Filters: Include filtering options for VM properties in the table view.
-Real-time Updates: WebSocket integration for real-time VM status updates.
+- **Enhanced Security**: Add OAuth for secured API access.
+- **Advanced Filters**: Include filtering options for VM properties in the table view.
+- **Real-time Updates**: WebSocket integration for real-time VM status updates.
