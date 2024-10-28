@@ -7,7 +7,7 @@ VM Nexus is a full-stack application designed for seamless management of virtual
 VM Nexus simplifies virtual machine management by enabling CRUD operations on VM models through a user-friendly API and dynamic frontend interface. Designed with Docker for streamlined deployment, the application facilitates concurrent execution of Django and Webpack processes, enhancing development and production workflows.
 
 ## Technologies Used
-
+ 
 - **Docker** - Containerizes the application and manages dependencies for consistent deployment.
 - **Django** - Provides the backend framework and RESTful API for handling VM data.
 - **ReactJS** - Powers the frontend with dynamic UI to display and manage VM data.
