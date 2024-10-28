@@ -12,7 +12,7 @@ VM Nexus simplifies virtual machine management by enabling CRUD operations on VM
 - **Django** - Provides the backend framework and RESTful API for handling VM data.
 - **ReactJS** - Powers the frontend with dynamic UI to display and manage VM data.
 - **Webpack** - Bundles frontend resources, integrated to run concurrently with the backend.
-
+ 
 ## Features
 
 - **Dockerized Development Environment**: Launches the Django backend and Webpack with a single command, improving setup efficiency.
