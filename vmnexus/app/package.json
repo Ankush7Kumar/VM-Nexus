@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "vmnexus",
 	"keywords": [],
-	"author": "Haziq Yusof",
+	"author": "Ankush Kumar",
 	"license": "ISC",
 	"scripts": {
 		"dev": "webpack --config webpack.config.js --watch --mode development"
